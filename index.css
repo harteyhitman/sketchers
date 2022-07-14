@@ -1,0 +1,253 @@
+*{
+    box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     max-width: 100%;
+}
+
+.container{
+    box-sizing: border-box;
+    max-width: 100%;
+    background-color: white;
+    padding-left: 80px;
+}
+header{
+  position: sticky; position:-webkit-sticky;
+  top: 0;z-index: 2;
+  background-color: #FFFFFF;
+}
+.fixedwrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px; 
+    padding-top: 20px;
+
+}
+.fixedwrapper a .burger{
+    color: black;
+    background-color: white;
+    background-size: 100%;
+}
+.title{
+    font-weight: 600;
+    font-size: 3rem;
+}
+.title a{
+    text-decoration: none;
+}
+.info-text{
+  padding-left: 50px;
+  justify-content: space-between;
+  color: black;
+  padding-top: 0px;
+}
+.info-text h1{
+  font-size: 6rem;
+}
+.cv {
+  padding-left: 50px;
+}
+.textcontact{
+  padding-left: 50px;
+  padding-top: 40px;
+
+}
+.nice1{
+  padding-right: 5px;
+}
+.fixedwrapper .hamburger {
+    display: inline-block;
+    cursor: pointer;
+    width: 35px;
+}
+  
+  .hamburger .bar1,.hamburger .bar2,.hamburger .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .hamburger.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .hamburger.change .bar2 {opacity: 0;}
+  
+  .hamburger.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+  #mobile{
+        display: none;
+  }
+
+  #mobile.change{
+    display: block;
+    
+  }
+.text{
+  justify-content: space-between;
+  color: black;
+  
+} 
+.text h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5rem;
+}
+.text p{
+  font-weight: 100;
+  font-style: italic;
+}
+.cv{
+  padding-top: 20px;
+}
+.cv a{
+  color: #121212;
+  padding-left: 12px;
+}
+.straight-line{
+  border: 2px solid #000000 ;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
+}
+.textcontact{
+    padding-top: 30px;
+}
+.textcontact a{
+  color: #000000;
+}
+.nice{
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+img{
+  width: 400px;
+}
+.display-image{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.port1{
+    padding-right: 50px;
+}
+.port .port1, a{
+    padding-top: 30px;
+    color: #000000;
+    text-decoration: none;
+}
+.socialmedia{
+  padding-left: 80px;
+  padding-top: 50px;
+}
+
+.contact{
+  padding-left: 80px;
+  padding-top: 50px;
+}
+footer{
+  padding-left: 80px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-style: oblique;
+}
+.motive-flex{
+  display: flex;
+  justify-content: space-between;
+}
+.motive-flex img {
+  block-size: auto;
+}
+.motive-flex img, h4{
+      padding-top: 50px;
+      padding-right: 20px;
+      margin-left: -50;
+}
+.motive-flex h4{
+  padding-left: 20px;
+}
+.infotext2{
+  padding-left: 80px;
+  padding-top: 50px;
+  width: 1200px;
+}
+.infotext3{
+  width: 400px;
+  margin-right: 20px;
+}
+
+.wrap{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.wrap, .words{
+    margin-left: 50px;
+}
+.words :first-child{
+    font-weight: bolder;
+    font-size: x-large;
+}
+.write img, h4{
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.boldtext{
+  padding-top: 20px;
+  padding-right: 60px;
+  width: 300px;
+  font-family: fantasy;
+  text-transform:capitalize
+  
+}
+.boldtext .bigtext{
+    font-size: large;
+    padding-left: 100px;
+    font-size: x-large;
+}
+
+.min-flex{
+   display: flex;
+   justify-content: space-between;
+   margin-right: 100px;
+   
+}
+.cutter{
+  padding-right: 80px;
+}
+.volut{
+  font-size: 2rem;
+}
+.bachelor{
+  padding-right: 100px;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.footer .socialmedia1 {
+  position: relative;
+  right: 4rem;
+  padding: 40px;
+}
+.footer1{
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: lighter;
+}
+@media (max-width){
+  body{
+    display: flex;
+    flex-direction: row;
+  }
+}
+img{
+  display: grid;
+  grid-template-rows: auto;
+}
